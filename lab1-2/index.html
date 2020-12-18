@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <h1>Lab 1</h1>
+    <h2>Task 1. Оформленный текст.</h2>
+    <p> Основное <b>тригонометрическое тождество</b> <em>cos</em><sup>2</sup><b>α</b>> +
+        <em>sin</em><sup>2</sup><b>α</b>> = 1</p>
+    <p>Пример строгого неравенства А&lt;В </p>
+    <p>Нестрогое неравенство А≤В означает,что либо А&lt;B, либо А=В </p>
+    <h2>Task 2. Список. </h2>
+    <caption>Двухуровневый список с вопросами и вариантами ответов.</caption>
+
+    <ol type="A">
+        <li> <b>Действие повести Н.В. Гоголя "Тарас Бульба" происходит в:</b>
+            <ul type='disc'>
+                <li>Польше ;</li>
+                <li>России ;</li>
+                <li>Украине.</li>
+            </ul>
+        </li>
+
+        <li><b>Тема повести:</b>
+            <ul>
+                <li>Героическая борьба ураинского народа с польской шляхтой ;</li>
+                <li>История семьи Тараса Бульбы ;</li>
+                <li>Быт и нравы Запорожской Сечи.</li>
+            </ul>
+        </li>
+        <li> <b> Повесть написана в стиле:</b>
+            <ul type='square'>
+                <li>эпического сказа ;</li>
+                <li>истории семьи ;</li>
+                <li>исторического исследования.</li>
+            </ul>
+        </li>
+    </ol>
+    <h2>Task 3. Таблица.</h2>>
+    <table border="1" width=80%>
+
+        <caption>     Таблица с данными об успеваемости 3-х студентов по всем дисциплинам 3-го курса. <br>
+        </caption>
+
+        <thead>
+            <tr>
+                <th colspan="3">3 Курс</th>
+            </tr>
+
+            <tr>
+
+                <th> ФИО </th>
+
+                <th> СПЗ</th>
+
+                <th> ЛОГМОД </th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Петренко Н.Ю.</td>
+                <td>70</td>
+                <td>70</td>
+            </tr>
+
+            <tr>
+                <td>Иващенко Г.С.</td>
+                <td>100</td>
+                <td>99</td>
+            </tr>
+
+            <tr>
+                <td>Моршинская В.В.</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+
+
+            </tr>
+        </tbody>
+
+    </table>
+    <h2>Task 4. Форма с управляющими элементами. </h2>
+    <p>Форма регистрации посетителя сайта.</p>
+    <form action="URL">
+        <div>
+            <h1>Регистрация</h1>
+            <p>Заполните поля, чтобы создать аккаунт</p>
+            <hr>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            <hr>
+
+            <p>Создавая учетную запись, вы соглашаетесь с нашими <a href="#">Условиями и конфиденциальностью.</a>.</p>
+            <button type="submit">Зарегестрироваться</button>
+        </div>
+
+        <div>
+            <p>Уже есть аккаунт? <a href="#">   Войти</a>.</p>
+        </div>
+    </form>
+    <h2>Task 5. Ссылки и изображения </h2>
+    <p>Изображение-баннер, ведущий на официальный сайт университета.</p>
+    <a href="https://nure.ua/ru/" target="_blank">
+        <img src="https://nure.ua/wp-content/uploads/Main_Img_department/90_logo_slider.jpg" alt="banner">
+    </a>
+
+
+
+    <h1>Lab2</h1>
+    <h2>Task 1</h2>
+    <div id="container">
+        <div id="radio-container-1" class="radio">
+            <input id="radio-1" type="radio" name="radio" value="1" checked>
+            <label for="radio-1">Radio button 1</label>
+        </div>
+
+        <div id="radio-container-2" class="radio">
+            <input id="radio-2" type="radio" name="radio" value="2">
+            <label for="radio-2">Radio button 2</label>
+        </div>
+
+        <div id="radio-container-3" class="radio">
+            <input id="radio-3" type="radio" name="radio" value="3">
+            <label for="radio-3">Radio button 3</label>
+        </div>
+
+        <div id="radio-container-4" class="radio">
+            <input id="radio-4" type="radio" name="radio" value="4" disabled>
+            <label for="radio-4">Radio button 4:Disabled</label>
+        </div>
+    </div>
+
+
+</body>
+
+</html
